@@ -17,6 +17,6 @@ class Md
 		void print() const;
 		int countlarger(const int) const;
 		/*static Md * create(std::string filename);*/
-};
+};//
 
 bool geterror(const std::string filename);

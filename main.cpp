@@ -16,4 +16,4 @@ int main()
 		cout << "midle: "<<a.midle() << endl << "max: "<<a.getMax() << endl << "min: "<<a.getMin() << endl<<"midsq: "<<a.midsq()<<endl<<a.countlarger(comparison)<<endl;
 	}
 	system("pause");
-}
+}//
