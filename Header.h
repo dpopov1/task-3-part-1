@@ -7,6 +7,7 @@ class Md
 	/*explicit Md(vector<int> arr, int n);*/
 
 	public:
+		static bool geterror(const std::string filename);
 		int getMax() const;
 		int getMin() const;
 		int size() const;
@@ -17,6 +18,4 @@ class Md
 		void print() const;
 		int countlarger(const int) const;
 		/*static Md * create(std::string filename);*/
-};//
-
-bool geterror(const std::string filename);
+};

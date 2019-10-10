@@ -99,8 +99,8 @@ int Md:: countlarger(const int a) const
 	int t = std::count_if(arr.begin(), arr.end(), x);
 	return t;
 }
-//
-bool geterror(const string filename)
+
+bool Md::geterror(const string filename)
 {
 	bool error = 1;
 	try {
